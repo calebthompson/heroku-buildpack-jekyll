@@ -13,7 +13,7 @@ class StaticConfig
     @json['jekyll'] ||= {
       'source' => ENV['build_dir']
     }
-    @json['root'] ||= 'dist/'
+    @json['root'] ||= 'public_html/'
   end
 
   def jekyll_options
